@@ -48,12 +48,13 @@ nav a{
     font-weight: bold;
 
 }
-.produto-descricao{
+.produto-preco{
     font-size: 18px;
     
 
 }
-.produto-preco{
+.produto-descricao{
+    padding: 2px;
     font-size: 22px;
     font-weight: bold;
 
