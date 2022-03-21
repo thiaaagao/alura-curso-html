@@ -54,3 +54,15 @@ ul{
     vertical-align: top;
 
 }
+footer {
+    text-align: center;
+    background: url("/img/bg.jpg");
+    
+
+}
+.copyright{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 20px 0 0 ;
+
+}
