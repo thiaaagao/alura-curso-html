@@ -24,13 +24,13 @@
             <main>
                 <form>
                     <label for="nomesobrenome">Nome e Sobrenome</label>
-                    <input type="text" id="nomesobrenome" class="input-padrao">
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" class="input-padrao">
+                    <input type="text" id="email" class="input-padrao" placeholder="email@dominio.com" required>
 
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" class="input-padrao">
+                    <input type="text" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx" required>
 
                     <label for="mensagem">Mensagem</label>
                     <textarea id="mensagem" cols="65" rows="10" class="input-padrao"></textarea>
@@ -54,11 +54,23 @@
                         
                     </div>
 
+                    <div>
+                        <p>Qual horário prefere ser atendido?</p>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </div>
+
                     <label class="checkbox">
-                        <input type="checkbox">Gostaria de receber nossas informações por email
+                        <input type="checkbox" checked>Gostaria de receber nossas informações por email
                     </label>
+                   
 
                     <input type="submit" value="Enviar Formulário">
+
+                    
                 </form>
 
 
