@@ -151,10 +151,10 @@ form fieldset{
     font-size: 15px;
     border-style: none;
     border-radius: 5px;
-    transition: 1s background;
+    transition: 1s all;
     cursor: pointer;
 }
 .enviar:hover{
-    background: black;
-
+    background: darkorange; 
+    transform: scale(1.2);
 }
