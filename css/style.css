@@ -181,7 +181,8 @@ td, th{
 
 /* CSS DA PAGINA INDEX */
 .baner{
-    width: 100%;
+    width:100%;
+    
 
 }
 
@@ -190,18 +191,15 @@ td, th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left ;
+    transition: 0.5s;
 }
+
+.titulo-principal:hover{
+    color: rgb(0, 0, 0,0.3);
+}
+
 .titulo-principal::first-letter{
     font-weight: bold;
-}
-
-.titulo-principal::before{
-    content: "[ ";
-}
-
-
-.titulo-principal::after{
-    content: " ]";
 }
 
 .principal{
@@ -230,6 +228,11 @@ td, th{
 
 .imagembeneficios{
     width: 60%; 
+    opacity: 1;
+    transition: 250ms;
+}
+.imagembeneficios:hover{
+    opacity: 0.3;
 
 }
 
@@ -291,3 +294,10 @@ td, th{
     font-weight: bold;
 
 }
+
+/* Seletores avançados css*/
+/* ">" - Chamando os filhos de uma tag */
+/* "+" - Chamando tags de elementos ancoras como "img" */
+/* "~" - Chamando todos os elementos localizados prox a uma img */
+/* ":not(#id ou classe)" - Excluindo itens especificos em css*/
+/* Calculando elementos no css -  calc(40% - (26px * 4);*/
