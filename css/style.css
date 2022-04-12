@@ -294,6 +294,11 @@ td, th{
 
 }
 
+@media screen and (max-width: 480xp){
+    
+
+}
+
 /* Seletores avançados css*/
 /* ">" - Chamando os filhos de uma tag */
 /* "+" - Chamando tags de elementos ancoras como "img" */
