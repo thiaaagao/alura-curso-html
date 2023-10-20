@@ -95,6 +95,7 @@ footer{
     text-align: center;
     background: url("/img/bg.jpg");
     padding: 40px 0;
+    background: #BBBBBB;
 
 }
 
@@ -292,10 +293,6 @@ td, th{
 .mapas p strong{
     font-weight: bold;
 
-}
-
-footer{
-    background: #BBBBBB;
 }
 
 @media screen and (max-width: 280px) {
