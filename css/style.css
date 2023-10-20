@@ -294,6 +294,10 @@ td, th{
 
 }
 
+footer{
+    background: #BBBBBB;
+}
+
 @media screen and (max-width: 280px) {
 }
 
